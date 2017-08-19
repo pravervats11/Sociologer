@@ -10,7 +10,7 @@ Preprocessing includes:
 Generating a tweet database and learning the methodology of how preprocessing should be done. This is a crucial step and requires removing unwanted data (stopwords, redundant words etc.) from tweets and emphasizing important words that contributes more to the essence of the tweet.
 
 ### Step 2
-Generating an algorithm that will implement the above methodology. (using libraries like Regex, NLTK, String)
+Developing an algorithm that will implement the above methodology. (using libraries like Regex, NLTK, String)
 
 ### Step 3
 Implementing the above algorithm on test tweet database to see if this is working fine on other short texts as well.
