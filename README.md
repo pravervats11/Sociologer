@@ -7,6 +7,12 @@ Preprocessing includes:
 * Stemming and Lemmatization
 
 ### Step 1  
+Generating a tweet database and learning the methodology of how preprocessing should be done. This is a crucial step and requires removing unwanted data (stopwords, redundant words etc.) from tweets and emphasizing important words that contributes more to the essence of the tweet.  
+
+![Screenshot](Preprocessing_tweets.PNG)  
+
+### Step 2
+Developing an algorithm that will implement the above methodology. (using libraries like Regex, NLTK, String)
 Generating a tweet database and learning the methodology of how preprocessing should be done. This is a crucial step and requires removing unwanted data (stopwords, redundant words etc.) from tweets and emphasizing important words that contributes more to the essence of the tweet. Also, it should be able to detect duplicate tweets and remove the copies from the corpus of processed tweets.
 
 ### Step 2
