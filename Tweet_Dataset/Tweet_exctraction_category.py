@@ -14,7 +14,7 @@ auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
-word_list = ["word_list"]
+word_list = ["word_lexicon"]
 
 def get_tweets_category(word_list):
     for a in word_list:
@@ -25,3 +25,4 @@ def get_tweets_category(word_list):
             Tweets.append(tweet.text)
         time.sleep(60)
         return Tweets
+
