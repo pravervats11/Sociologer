@@ -14,7 +14,7 @@ auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
-word_list = ['booz','wasted','alcohol','beer','whiskey']
+word_list = ["word_list"]
 
 def get_tweets_category(word_list):
     for a in word_list:
