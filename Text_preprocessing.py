@@ -17,15 +17,15 @@ def preprocess_classifier(data):
     for tweet in data:
         for word in tweet.split():
             if word in stopwords:
-                word.replace(word,"")
+                word = word.replace(word,"")
         for word in tweet:    
             if word in punctuations:
-                word.replace(word,"")
+                word = word.replace(word,"")
         for word in tweet.split():
             if word.startswith("@"):
-                word.replace(word,"")
+                word = word.replace(word,"")
             elif word.startswith("#"):
-                word.replace(word,word[1:])
+                word = word.replace(word,word[1:])
             elif word.startswith("http"):
-                word.replace(word,"")
+                word = word.replace(word,"")
     return data
