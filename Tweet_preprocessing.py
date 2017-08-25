@@ -27,11 +27,11 @@ Hashtag -> search hashtag on twitter and get classification of hashtag based on 
 User mention -> Removing User mention and doing exact same as done with hashta. (classification contribution will be least.)
 URL -> URL is to be removed.
 '''
-<Code>
+</Code>
 
 '''
 POS Tagging and other secn level feature extraction.
 '''
-<Code>
+</Code>
 
 # End
