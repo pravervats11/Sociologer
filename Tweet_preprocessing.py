@@ -10,11 +10,13 @@ This part will be responsible for removing stop words, letters in lower case, re
 def tokenswithoutpuncstop(data):
     tokens = nltk.word_tokenize(data)
     stop = set(stopwords.words('english'))
+    
     withoutstop = []
     for i in range(0,len(tokens)-1):
         if tokens[i] not in stop:
             withoutstop.append(tokens[i])
     punctuations = list(string.punctuation)
+    
     withoutstoppuncstop = []
     for word in withoutstop:
         if word not in punctuations:
