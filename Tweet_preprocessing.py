@@ -26,7 +26,7 @@ def tokenswithoutpuncstop(data):
 '''
 Emoticon relpacement -> build a emoticon dict file with list of emoticons from wikipedia.
 Hashtag -> search hashtag on twitter and get classification of hashtag based on hashtag tweets.(hashtag classification will contribute less in getting overall classification on tweet.)
-User mention -> Removing User mention and doing exact same as done with hashta. (classification contribution will be least.)
+User mention -> Removing User mention and doing exact same as done with hashtags. (classification contribution will be least.)
 URL -> URL is to be removed.
 '''
 
