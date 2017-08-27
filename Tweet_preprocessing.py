@@ -4,7 +4,7 @@ from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
 
 '''
-This part will be responsible for removing stop words, letters in lower case, remove tweets with less thatn 5 words or so.
+This part will be responsible for removing stop words, letters in lower case, remove tweets with less words.
 '''
 
 def tokenswithoutpuncstop(data):
