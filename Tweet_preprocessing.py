@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 This part will be responsible for removing stop words, letters in lower case, remove tweets with less words.
 '''
 
-def tokenswithoutpuncstop(data):
+def pre_processing(data):
     tokens = nltk.word_tokenize(data)
     stop = set(stopwords.words('english'))
     
